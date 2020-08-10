@@ -8,6 +8,8 @@ FROM alpine:3.12.0
 RUN apk add --no-cache openrc \
         acl \
         apache2 \
+        apache2-webdav \
+        mod_dav_svn \
         bzip2 \
         curl \
         diffutils \
